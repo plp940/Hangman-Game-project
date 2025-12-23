@@ -1,6 +1,12 @@
 # Hangman-Game-project
 
-
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=======   
 ```markdown
 # Hangman Game
 
