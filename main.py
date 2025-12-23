@@ -2,12 +2,11 @@ import random
 from hangman_words import word_list
 from hangman_art import stages ,logo
 
-word_list = ["andaman","nicobar","nagasaki"]
+
 lives =6 
-print(logo)
+print(logo[0])
 # randomly choose a word from the word_list and assign it to a variable called choose_word and print it
 choosen = random.choice(word_list)
-print(choose)
 
 placeholder = ""
 word_length = len(choosen)
