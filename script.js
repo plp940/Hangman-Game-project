@@ -1,7 +1,6 @@
-// words list (same role as hangman_words.py)
-const word_list = ["python", "hangman", "developer", "random"];
+<script src="words.js"></script>
 
-// ASCII stages (your code – unchanged)
+// ASCII stages 
 const stages = [
 `
   +---+
@@ -83,7 +82,7 @@ function getDisplayWord() {
   return display;
 }
 
-// update UI (this replaces Python print)
+// update UI 
 function updateUI() {
   document.getElementById("word").innerText = getDisplayWord();
   document.getElementById("lives").innerText =
