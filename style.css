@@ -1,10 +1,23 @@
 body {
-  font-family: Arial;
+  font-family: monospace;
+  background: #111;
+  color: #00ffcc;
   text-align: center;
-  background: #f4f4f4;
+  padding: 20px;
 }
 
-#word {
-  font-size: 28px;
-  letter-spacing: 6px;
+#letters button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+pre {
+  font-size: 18px;
 }
